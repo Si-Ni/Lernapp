@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ausgabe">
+    
+    </div>
+    <form id="neuerEintragForm">
+        <div>
+            <input id="eingabe1" type="text">
+            <input id="eingabe2" type="text">
+        </div>
+        <div id="neuerEintragDiv">
+            <button id="neuerEintrag"> + </button>
+        </div>
+    </form>
+    <div id="steuerButtonDiv">
+        <button class="buttonEingabe" onclick="linksVerdecken()" id="links"> linke Seite verdecken </button>       
+        <button class="buttonEingabe" onclick="anzeigen()" id="anzeigen"> anzeigen </button>
+        <button class="buttonEingabe" onclick="rechtsVerdecken()" id="rechts"> rechte Seite verdecken </button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
